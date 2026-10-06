@@ -4,7 +4,7 @@
 Membangun 1 dasbor Tableau interaktif untuk menjawab: di mana Superstore harus fokus untuk memaksimalkan keuntungan? Mencakup performa regional, profitabilitas kategori, dan dampak terukur dari tingkat diskon beserta rekomendasi strategis per wilayah.
 
 ## Problem Statement
-Meskipun secara keseluruhan profitable, $156.131 hilang setiap tahun akibat diskon yang berlebihan. 1.871 pesanan (19,4%) mengalami kerugian. Wilayah Central menerapkan diskon rata-rata 30% pada kategori Furniture, dibandingkan dengan 13% di wilayah West — perbedaan struktural ini menjelaskan sebagian besar kesenjangan profitabilitas antar wilayah.
+Kategori Teknologi unggul dalam penjualan dan profit, tetapi subkategori seperti Tabel merugi meski volumenya besar. Diskon berlebihan menekan keuntungan, sementara segmen Korporasi lebih stabil dibanding Konsumen. Wilayah Texas dan Illinois menunjukkan penjualan tinggi namun margin rendah, sehingga diperlukan optimalisasi harga, kebijakan diskon, dan strategi regional untuk meningkatkan profitabilitas ritel.
 
 ## Data Exploration
 - **Sumber:** Dataset Sample Superstore
