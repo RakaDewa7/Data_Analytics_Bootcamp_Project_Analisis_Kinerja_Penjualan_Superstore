@@ -20,9 +20,10 @@ Meskipun secara keseluruhan profitable, $156.131 hilang setiap tahun akibat disk
 - Texas dan Illinois menunjukkan penjualan tinggi namun profit negatif, sebuah pola yang tidak terlihat tanpa analisis tingkat dasbor
 
 ## Rekomendasi per Diskon
-- **Bisa disimpulkan bahwa data yang mengalami kerugian bisa disebabkan oleh adanya diskon yang terlalu besar. Dengan ini dapat direkomendasikan untuk membatasi penggunaan diskon agar tidak melebihi batas margin keuntungan.
+- Dengan ini dapat direkomendasikan untuk membatasi penggunaan diskon agar tidak melebihi batas margin keuntungan.
+- Menetapkan kebijakan diskon yang lebih terukur, seperti menetapkan persentase maksimal diskon berdasarkan perhitungan harga pokok penjualan (HPP) dan margin yang diinginkan, serta melakukan evaluasi berkala terhadap produk-produk yang sering terdampak diskon besar agar strategi penjualan tetap menguntungkan dan berkelanjutan. 
 
-**Kesimpulan:** Terdapat peluang peningkatan keuntungan sebesar 54% — tanpa perlu mendapatkan satu pelanggan baru pun.
+**Kesimpulan:** Data yang mengalami kerugian bisa disebabkan oleh adanya diskon yang terlalu besar.
 
 ## Tools yang Digunakan
 Tableau Public · Python (EDA) · Calculated Fields · Heatmap · Scatter Plot · Slope Chart
