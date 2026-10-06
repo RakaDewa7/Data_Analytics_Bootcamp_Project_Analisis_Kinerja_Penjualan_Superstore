@@ -31,4 +31,4 @@ Tableau Public · Python (EDA) · Calculated Fields · Heatmap · Scatter Plot �
 ---
 *Bagian dari portofolio Data Analytics Bootcamp (2026)*
 
-![Dashboard_Superstore](Dashboard.png)
+![Dashboard_Superstore](dashboard/Dashboard.png)
