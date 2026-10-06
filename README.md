@@ -1,34 +1,31 @@
 # Superstore Profitability & Discount Analysis
 
-## Overview
-Built 3 interactive Tableau dashboards to answer: where should Superstore focus to maximize profit? Covered regional performance, category profitability, and the quantified impact of discount levels with strategic recommendations per region.
+## Ringkasan
+Membangun 3 dasbor Tableau interaktif untuk menjawab: di mana Superstore harus fokus untuk memaksimalkan keuntungan? Mencakup performa regional, profitabilitas kategori, dan dampak terukur dari tingkat diskon beserta rekomendasi strategis per wilayah.
 
-## Problem Statement
-Despite overall profitability, $156,131 is lost annually to excessive discounting. 1,871 orders (19.4%) generate a loss. Central region applies a 30% average discount on Furniture vs. West's 13%, a structural difference that explains most of the profitability gap between regions.
+## Rumusan Masalah
+Meskipun secara keseluruhan profitable, $156.131 hilang setiap tahun akibat diskon yang berlebihan. 1.871 pesanan (19,4%) mengalami kerugian. Wilayah Central menerapkan diskon rata-rata 30% pada kategori Furniture, dibandingkan dengan 13% di wilayah West — perbedaan struktural ini menjelaskan sebagian besar kesenjangan profitabilitas antar wilayah.
 
 ## Dataset
-- **Source:** Sample Superstore dataset
-- **Size:** 9,994 orders × 21 columns
-- **Period:** 2014–2017, 4 US regions (West, East, Central, South)
-- **Key columns:** Region/State/City, Category/Sub-Category, Sales, Profit, Discount
+- **Sumber:** Dataset Sample Superstore
+- **Ukuran:** 9.994 pesanan × 21 kolom
+- **Periode:** 2014–2017, 4 wilayah AS (West, East, Central, South)
+- **Kolom Utama:** Region/State/City, Category/Sub-Category, Sales, Profit, Discount
 
-## Key Findings
-- **KPIs:** $2.3M total sales · 12.47% profit margin · 15.62% avg discount · 1,871 loss orders
-- **Discount impact per order:** 0% → +$66.90 · 1–10% → +$96.06 · 11–20% → +$24.74 · 21–30% → **-$45.68** · 31–50% → **-$156.28**
-- **By region:** West leads (14.9% margin, 9.9% loss orders); Central is worst (7.9% margin, 31.9% loss orders)
-- **By sub-category:** Tables is the biggest loss-maker (-$17,725); Copiers is most profitable (+$55,618)
-- Texas and Illinois show high sales but negative profit, a pattern invisible without dashboard-level analysis
+## Temuan Utama
+- **KPI:** $2,3J total penjualan · 12,47% margin keuntungan · $229 rata-rata penjualan · 1.871 pesanan merugi
+- **Dampak diskon per pesanan:** 0% → +$66,90 · 1–10% → +$96,06 · 11–20% → +$24,74 · 21–30% → **-$45,68** · 31–50% → **-$156,28**
+- **Berdasarkan wilayah:** West memimpin (margin 14,9%, 9,9% pesanan merugi); Central paling buruk (margin 7,9%, 31,9% pesanan merugi)
+- **Berdasarkan sub-kategori:** Tables adalah penyumbang kerugian terbesar (-$17.725); Copiers paling menguntungkan (+$55.618)
+- Texas dan Illinois menunjukkan penjualan tinggi namun profit negatif, sebuah pola yang tidak terlihat tanpa analisis tingkat dasbor
 
-## Recommendations by Region
-- **West (Star Performer):** Scale marketing budget 30–40%; replicate its 11% discount model company-wide
-- **East (High Performer):** Hold discount rate at a 15% cap
-- **South (Needs Attention):** Stop discount increases; prioritize efficiency over expansion
-- **Central (Urgent):** Cap all discounts at 15% immediately; eliminate Furniture discounts entirely; shift focus from Consumer (3.4% margin) to Corporate (11.8%) and B2B
+## Rekomendasi per Diskon
+- **Bisa disimpulkan bahwa data yang mengalami kerugian bisa disebabkan oleh adanya diskon yang terlalu besar. Dengan ini dapat direkomendasikan untuk membatasi penggunaan diskon agar tidak melebihi batas margin keuntungan.
 
-**Bottom line:** A 54% profit improvement opportunity exists — without acquiring a single new customer.
+**Kesimpulan:** Terdapat peluang peningkatan keuntungan sebesar 54% — tanpa perlu mendapatkan satu pelanggan baru pun.
 
-## Tools Used
+## Tools yang Digunakan
 Tableau Public · Python (EDA) · Calculated Fields · Heatmap · Scatter Plot · Slope Chart
 
 ---
-*Part of the Data Analytics Bootcamp portfolio (2026)*
+*Bagian dari portofolio Data Analytics Bootcamp (2026)*
